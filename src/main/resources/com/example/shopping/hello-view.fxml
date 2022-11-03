@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.shopping.HelloController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="604.0">
+         <children>
+            <Label layoutX="94.0" layoutY="176.0" text="Password:">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="34.0" />
+               </font>
+            </Label>
+            <Label layoutX="91.0" layoutY="107.0" text="username:">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="34.0" />
+               </font></Label>
+            <TextField fx:id="tf_username" layoutX="300.0" layoutY="119.0" />
+            <Label layoutX="230.0" layoutY="46.0" text="WHAP">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="38.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_password" layoutX="300.0" layoutY="187.0" />
+            <Button fx:id="button_log_in" layoutX="238.0" layoutY="264.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="98.0" style="-fx-cursor: hand;" text="Login">
+               <font>
+                  <Font name="Berlin Sans FB" size="18.0" />
+               </font>
+            </Button>
+            <Label layoutX="107.0" layoutY="337.0" text="Not a user , please create account">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="button_signup" layoutX="343.0" layoutY="335.0" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Sign up!" textFill="#2797b7">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>
